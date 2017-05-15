@@ -1,0 +1,148 @@
+:root {
+  --font-family: 'Input Mono Compressed', Menlo, monospace;
+  --purple: #2b2e3b;
+  --teal-darker: rgba(159, 234, 249, .4);
+  --teal-dark: rgba(159, 234, 249, .6);
+  --teal: rgb(159, 234, 249);
+  --white: #fff;
+
+  --line-height: 1.25;
+}
+
+html {
+  background: var(--purple);
+  color: var(--teal);
+}
+
+body {
+  color: inherit;
+  font-family: var(--font-family);
+  font-weight: 400;
+  line-height: var(--line-height);
+}
+
+a {
+  color: var(--white);
+  text-decoration: underline;
+}
+a:hover {
+  background: var(--teal);
+  color: var(--purple);
+}
+
+code {
+  font-family: var(--font-family);
+}
+
+/* Markdown-ify elements */
+h1,
+h2,
+ol,
+ul {
+  margin: 0 0 calc(1em * var(--line-height));
+}
+h1,
+h2,
+h3,
+ol li,
+ul li {
+  position: relative;
+}
+h1:before,
+h2:before,
+h3:before,
+ol li:before,
+ul li:before {
+  color: var(--teal-darker);
+  display: inline-block;
+  left: -2.5em;
+  position: absolute;
+  text-align: right;
+  width: 2.5em;
+}
+ol {
+  counter-reset: item;
+}
+ol li:before {
+  counter-increment: item;
+  content: counter(item) '\00a0';
+}
+h1:before {
+  content: '#\00a0';
+}
+h2:before {
+  content: '##\00a0';
+}
+h3:before {
+  content: '###\00a0';
+}
+ul li:before {
+  content: '*\00a0';
+}
+
+h1,
+h2,
+h3,
+.author h1 {
+  font-size: 100%;
+  font-weight: 400;
+  line-height: inherit;
+  text-align: left;
+}
+h3 {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+/* Slide */
+.slide {
+  background: none;
+  color: inherit;
+}
+.slide-content {
+  font-weight: 400;
+  line-height: inherit;
+  padding: 0 3em;
+}
+
+/* Progress */
+.progress {
+}
+.progress-bar {
+  background: var(--teal-dark);
+}
+
+/* Controls */
+.arrow.next {
+  border-left-color: var(--teal-darker);
+}
+.arrow.next:hover {
+  border-left-color: var(--teal-dark);
+}
+.arrow.prev {
+  border-right-color: var(--teal-darker);
+}
+.arrow.prev:hover {
+  border-right-color: var(--teal-dark);
+}
+
+/* Author */
+.author h3 {
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  padding-bottom: 0;
+  position: static;
+  text-align: left;
+}
+.author h3:before {
+  content: none;
+  display: none;
+}

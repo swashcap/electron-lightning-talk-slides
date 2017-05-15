@@ -1,0 +1,30 @@
+{
+  "name": "electron-lightning-talk-slides",
+  "version": "1.0.0",
+  "description": "Slides for an Electron lightning talk.",
+  "main": "index.js",
+  "scripts": {
+    "build": "cleaver slides.md",
+    "start": "cleaver watch slides.md --style style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swashcap/electron-lightning-talk-slides.git"
+  },
+  "keywords": [
+    "Electron",
+    "Cleaver",
+    "slideshow",
+    "slides"
+  ],
+  "author": "Cory Reed <swashcap@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swashcap/electron-lightning-talk-slides/issues"
+  },
+  "homepage": "https://github.com/swashcap/electron-lightning-talk-slides#readme",
+  "private": true,
+  "dependencies": {
+    "cleaver": "^0.8.4"
+  }
+}
