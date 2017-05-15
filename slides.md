@@ -63,6 +63,8 @@ Built-in [`autoUpdater`](https://electron.atom.io/docs/api/auto-updater/) API a 
 
 The power of [npm](https://www.npmjs.com/), the largest package manager in the world
 
+![npm screenshot](img/npm.jpg)
+
 ---
 
 ## Example Applications
@@ -71,29 +73,43 @@ The power of [npm](https://www.npmjs.com/), the largest package manager in the w
 
 ### [Atom](https://atom.io/)
 
+![Atom screenshot](img/atom.png)
+
 ---
 
 ### [Slack](https://slack.com/downloads)
+
+![Slack screenshot](img/slack.png)
 
 ---
 
 ### [VS Code](https://code.visualstudio.com/)
 
+![VS Code screenshot](img/vscode.png)
+
 ---
 
 ### [WordPress’s desktop app](https://apps.wordpress.com/desktop/)
+
+![Wordpress for desktop screenshot](img/wordpress.png)
 
 ---
 
 ### [COINSTAC](https://github.com/MRN-Code/coinstac)
 
+![COINSTAC screenshot](img/coinstac.jpg)
+
 ---
 
 ### [And more!](https://electron.atom.io/apps/)
 
+![Electron app listing screenshot](img/electron-apps.jpg)
+
 ---
 
 ## Developing With Electron
+
+![Onion hacker news tweet](img/onionhackernews.jpg)
 
 ---
 
@@ -116,17 +132,23 @@ Native Node.js modules (like LevelDOWN, SQLite3, etc.) must be built for Electro
 
 ### Debugging the Main Process
 
+<img src="http://bukk.it/noidea-commandant.jpg" width="100%">
+
 ---
 
 ### Open Source
 
 Maintainers are quick to respond to questions and issues.
 
+![Electron issues screenshot](img/electron-issues.jpg)
+
 ---
 
 ### Testing
 
 Easy UI testing with [Spectron](https://github.com/electron/spectron)
+
+![Spectron website screenshot](img/spectron.jpg)
 
 ---
 
@@ -152,9 +174,13 @@ Load specific Chrome extensions into the Electron debugger: https://electron.ato
 
 Beware of vulnerabilities, mainly remote execution of malicious code: https://electron.atom.io/docs/tutorial/security/
 
+<img src="http://bukk.it/howwebkitworks.gif" width="100%">
+
 ---
 
 ## Demo
+
+<img src="http://bukk.it/howidobasicallyeverything.gif" width="100%">
 
 ---
 
