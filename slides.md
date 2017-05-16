@@ -1,9 +1,4 @@
 title: Electron Lightning Talk
-author:
-  name: Cory Reed
-  twitter: swashcap
-  github: swashcap
-  url: http://swashcap.com
 style: style.css
 output: index.html
 
@@ -195,3 +190,12 @@ Beware of vulnerabilities, mainly remote execution of malicious code: https://el
   * Repository: https://github.com/electron/simple-samples
 * Twitter: https://twitter.com/electronjs
 * API demos (which is an Electron application): https://github.com/electron/electron-api-demos
+
+---
+
+# Cory Reed
+
+* Website: [swashcap.com](http://swashcap.com)
+* GitHub: [github.com/swashcap](https://github.com/swashcap)
+* Twitter: [@swashcap](https://twitter.com/swashcap)
+* Slides: [github.com/swashcap/electron-lightning-talk-slides](https://github.com/swashcap/electron-lightning-talk-slides)
