@@ -6,6 +6,7 @@ output: index.html
 
 # Electron
 
+![Electron logo](img/electron-logo.jpg)
 ---
 
 ## [History](https://electron.atom.io/docs/tutorial/about/#history)
