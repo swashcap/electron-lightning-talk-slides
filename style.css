@@ -96,6 +96,7 @@ h3 {
 
 ol,
 ul {
+  font-weight: inherit;
   list-style: none;
   padding: 0;
 }
