@@ -21,6 +21,8 @@ Started as atom-shell – chromium to support GitHub's text editor Atom – in A
 
 ## Features
 
+<img src="http://bukk.it/algebraic.gif" width="100%">
+
 ---
 
 ### Filesystem
@@ -64,6 +66,8 @@ The power of [npm](https://www.npmjs.com/), the largest package manager in the w
 ---
 
 ## Example Applications
+
+<img src="http://bukk.it/howimakecss.gif" width="100%">
 
 ---
 
