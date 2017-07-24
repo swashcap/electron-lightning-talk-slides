@@ -204,3 +204,4 @@ Beware of vulnerabilities, mainly remote execution of malicious code: https://el
 * GitHub: [github.com/swashcap](https://github.com/swashcap)
 * Twitter: [@swashcap](https://twitter.com/swashcap)
 * Slides: [github.com/swashcap/electron-lightning-talk-slides](https://github.com/swashcap/electron-lightning-talk-slides)
+* Demo: [github.com/swashcap/since-trump-tweets](https://github.com/swashcap/since-trump-tweets)
